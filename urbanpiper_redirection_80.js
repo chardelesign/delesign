@@ -193,6 +193,7 @@ function RedirectbyLoc(source = '', country = '', lang = ''){
         if(loc == 'uk'){
             const strn = document.querySelector('.section-top-ribbon');  
             strn.classList.add("active");
+            document.querySelectorAll('.nav-dd.products')[0].remove();
         }
         if(loc == 'ae' || loc == 'kw' || loc == 'qa' || loc == 'bh' || loc == 'eg' || loc == 'sa'){
             document.querySelectorAll('.nav-dd.products')[0].remove();
